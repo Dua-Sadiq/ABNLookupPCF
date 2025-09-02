@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="AbnLookup" constructor="AbnLookupControl" version="0.0.1" display-name-key="AbnLookupControl" description-key="AbnLookupControl description" control-type="standard" >
+  <property name="subKey" display-name-key="subKey" description-key="subKey_Description" of-type="SingleLine.Text" usage="input" />
+  <property name="lookupHost" display-name-key="lookupHost" description-key="lookupHost_Description" of-type="SingleLine.Text" usage="bound" />
+  <property name="abnInput" display-name-key="abnInput" description-key="abnInput_Description" of-type="SingleLine.Text" usage="bound" />
+  <property name="businessName" display-name-key="businessName" description-key="businessName_Description" of-type="SingleLine.Text" usage="bound" />
+  <property name="postCode" display-name-key="postCode" description-key="postCode_Description" of-type="SingleLine.Text" usage="bound" />
+  <property name="state" display-name-key="state" description-key="state_Description" of-type="OptionSet" usage="bound" />
+  <property name="acn" display-name-key="acn" description-key="acn_Description" of-type="SingleLine.Text" usage="bound" />
+  
+
+  <resources>
+    <code path="index.ts" order="1"/>
+    <css path="css/abnlookup.css"/>
+  </resources>
+  </control>
+</manifest>
