@@ -1,1 +1,1 @@
-the managed solution is named by "solution.zip"
+the unmanaged solution is named by "solution.zip"
